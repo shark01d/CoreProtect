@@ -4,8 +4,6 @@ on:
       - development
   pull_request:
     types: [opened, synchronize, reopened]
-    branches:
-      - development
   workflow_dispatch:
 
 jobs:

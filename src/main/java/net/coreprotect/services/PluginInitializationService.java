@@ -73,9 +73,6 @@ public class PluginInitializationService {
 
             // Start background services
             startBackgroundServices(plugin);
-
-            // Start metrics
-            enableMetrics(plugin);
         }
 
         return start;
